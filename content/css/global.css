@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+
+    background-color: #0E0E10;
+    color: whitesmoke;
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px
+}
+
+select {
+    padding: 16px;
+    border: none;
+
+    border-radius: 15px;
+
+    background-color: #464649;
+    color: whitesmoke;
+}
+
+button {
+    padding: 16px;
+    border: none;
+
+    border-radius: 15px;
+
+    background-color: #464649;
+    color: whitesmoke;
+}
+
+
+
+.grid {
+    display: grid;
+
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+
+    width: 300px;
+}
+
+.padded {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header {
+    margin-bottom: 50px;
+
+    background-color: #1F1F23;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+}
+
+.logo {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+
+    background-image: url("../images/metra.png");
+    background-size: cover;
+}
+
+.card {
+    display: block;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+
+    background-color: #1F1F23;
+
+    text-align: center;
+}
+
+
+
+.nav {
+    list-style-type: none;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+
+    width: 600px;
+    border-radius: 15px;
+
+    background-color: #1F1F23;
+    
+    text-align: center;
+}
+
+.nav li a {
+    display: block;
+
+    padding: 16px;
+    
+    color: whitesmoke;
+
+    text-decoration: none;
+}
+
+.nav li a.top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.nav li a.bottom {
+    border-bottom-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+}
+
+.nav li a.single {
+    border-radius: 15px;
+}
+
+.nav li a:hover {
+    background-color: #464649;
+}
+
+
+
+.button {
+    list-style-type: none;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+
+    width: 300px;
+
+    background-color: #464649;
+    
+    text-align: center;
+}
+
+.button.small {
+    width: 150px;
+}
+
+.button.single {
+    border-radius: 15px;
+}
+
+.button.left {
+    border-top-left-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+
+.button.right {
+    border-top-right-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+}
+
+.button a {
+    display: block;
+
+    padding: 16px;
+    
+    color: whitesmoke;
+
+    text-decoration: none;
+}
+
+.button.single a {
+    border-radius: 15px;
+}
+
+.button.left a {
+    border-top-left-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+
+.button.right a {
+    border-top-right-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+}
+
+.button a:hover {
+    background-color: #6D6D6F;
+}
